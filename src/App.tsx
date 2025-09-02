@@ -1,14 +1,14 @@
-import React from "react";
+
 
 // Single-file React portfolio component
 // Tailwind CSS classes are used for styling (no import needed if your project already includes Tailwind)
 // This component is ready to drop into a Create React App / Vite / Next.js page.
-
+import logo from "./assets/profile_pic.jpg"; 
 export default function App() {
   const projects = [
     {
       id: 1,
-      title: "Project One",
+      title: "Online Food Order",
       desc: "A short description of your project, tech used and outcome.",
       link: "#",
       img: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=800&q=60",
@@ -32,10 +32,15 @@ export default function App() {
   const skills = [
     "HTML",
     "CSS / Tailwind",
-    "JavaScript / TypeScript",
-    "React",
+    "JavaScript / TypeScript", "Java", "Springboot", "Hibernate","SQL"
+    ,"React",
     "Node.js",
-    "Git",
+    "Git"
+  ]
+   const Skills2 = [
+     "Troubleshooting","Networks devices(routers, firewall, switches, Aps)",
+     "Providing Desktop support to the users (Hardware/ Software/ Network/ Administration)",
+     "Managing SSL Certificates(Domain and email Portals)"
   ];
 
   return (
@@ -45,14 +50,16 @@ export default function App() {
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-full bg-gradient-to-br from-indigo-500 to-pink-500 flex items-center justify-center text-white font-bold">A</div>
             <div>
-              <h1 className="text-lg font-semibold">Anil Mahato</h1>
-              <p className="text-xs text-gray-500">Frontend Engineer · Designer</p>
+              <h1 className="text-lg font-semibold">Anil Kumar Mahato</h1>
+              <p className="text-xs text-gray-500">Software Engineer</p>
             </div>
           </div>
 
           <nav className="hidden md:flex gap-6 text-sm text-gray-600">
             <a href="#projects" className="hover:text-gray-900">Projects</a>
             <a href="#skills" className="hover:text-gray-900">Skills</a>
+            <a href="#skills" className="hover:text-gray-900"> Skills2</a>
+            <a href="#Experience" className="hover:text-gray-900">Experience</a>
             <a href="#contact" className="hover:text-gray-900">Contact</a>
           </nav>
 
@@ -70,10 +77,10 @@ export default function App() {
         <section className="grid md:grid-cols-2 gap-8 items-center">
           <div>
             <h2 className="text-4xl md:text-5xl font-extrabold leading-tight">
-              I build modern, accessible web experiences.
+              Hi, i'm Your Anil Kumar Mahato I build fast, Beautiful web experiences.
             </h2>
             <p className="mt-4 text-gray-600 max-w-xl">
-              I'm a frontend engineer focused on building performant, responsive interfaces with React and good design. I enjoy learning new
+              I'm a Java developer focused on building performant, responsive interfaces with React and good design. I enjoy learning new
               things and turning ideas into production-ready products.
             </p>
 
@@ -83,14 +90,14 @@ export default function App() {
             </div>
 
             <div className="mt-8 flex flex-wrap gap-2 text-xs text-gray-500">
-              <span>📍 Kathmandu, Nepal</span>
-              <span>·</span>
+              <span>📍 Kirtipur Kathmandu, Nepal</span>
+              <span>.</span>
               <span>Available for remote work</span>
             </div>
           </div>
 
           <div className="bg-white rounded-2xl shadow p-6">
-            <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=60" alt="Profile" className="w-full h-72 object-cover rounded-lg" />
+          <img src={logo} alt="Logo" />
             <div className="mt-4">
               <h3 className="font-semibold">Quick bio</h3>
               <p className="text-sm text-gray-600 mt-1">I design and build interfaces that people love to use. I focus on performance, accessibility, and clean code.</p>
@@ -100,7 +107,7 @@ export default function App() {
 
         {/* Projects */}
         <section id="projects" className="mt-16">
-          <h3 className="text-2xl font-semibold">Selected Projects</h3>
+          <h3 className="text-2xl font-semibold">Projects</h3>
           <p className="text-gray-600 mt-2">A few highlights — click to view details.</p>
 
           <div className="mt-6 grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
@@ -120,7 +127,7 @@ export default function App() {
 
         {/* Skills */}
         <section id="skills" className="mt-16">
-          <h3 className="text-2xl font-semibold">Skills</h3>
+          <h3 className="text-2xl font-semibold"> SKILLS </h3>
           <div className="mt-4 flex flex-wrap gap-3">
             {skills.map((s) => (
               <span key={s} className="px-3 py-1 rounded-full bg-white shadow text-sm">{s}</span>
@@ -128,6 +135,26 @@ export default function App() {
           </div>
         </section>
 
+                <section id="skills" className="mt-16">
+          <h3 className="text-2xl font-semibold"> SKILLS </h3>
+          <div className="mt-4 flex flex-wrap gap-3">
+            {Skills2.map((s) => (
+              <span key={s} className="px-3 py-1 rounded-full bg-white shadow text-sm">{s}</span>
+            ))}
+          </div>
+        </section>
+
+         {/* Experience */}
+          <section id="Experience" className="mt-16">
+            <h3 className="text-2xl font-semibold"> Experience </h3>
+            <div className="mt-4 flex flex-wrap gap-3">
+              {skills.map((s) => (
+                <span key={s} className="px-3 py-1 rounded-full bg-white shadow text-sm">{s}</span>
+              ))}
+            </div>
+          </section>
+
+     
         {/* Contact */}
         <section id="contact" className="mt-16 bg-white rounded-2xl shadow p-6">
           <div className="md:flex md:items-center md:justify-between">
@@ -150,7 +177,7 @@ export default function App() {
           </form>
         </section>
 
-        <footer className="mt-12 text-center text-gray-500 text-sm">© {new Date().getFullYear()} Anil Mahato — Built with React & Tailwind</footer>
+        <footer className="mt-12 text-center text-gray-500 text-sm">© {new Date().getFullYear()} Anil Kumar Mahato — Built with React & Tailwind</footer>
       </main>
     </div>
   );
