@@ -34,11 +34,7 @@ export default function App() {
     "CSS / Tailwind",
     "JavaScript / TypeScript", "Java", "Springboot", "Hibernate","SQL"
     ,"React",
-    "Node.js",
-    "Git"
-  ]
-   const Skills2 = [
-     "Troubleshooting","Networks devices(routers, firewall, switches, Aps)",
+    "Troubleshooting","Networks devices(routers, firewall, switches, Aps)",
      "Providing Desktop support to the users (Hardware/ Software/ Network/ Administration)",
      "Managing SSL Certificates(Domain and email Portals)"
   ];
@@ -57,8 +53,7 @@ export default function App() {
 
           <nav className="hidden md:flex gap-6 text-sm text-gray-600">
             <a href="#projects" className="hover:text-gray-900">Projects</a>
-            <a href="#skills" className="hover:text-gray-900">Skills</a>
-            <a href="#skills" className="hover:text-gray-900"> Skills2</a>
+            <a href="#skills" className="hover:text-gray-900">Skills</a>        
             <a href="#Experience" className="hover:text-gray-900">Experience</a>
             <a href="#contact" className="hover:text-gray-900">Contact</a>
           </nav>
@@ -77,7 +72,7 @@ export default function App() {
         <section className="grid md:grid-cols-2 gap-8 items-center">
           <div>
             <h2 className="text-4xl md:text-5xl font-extrabold leading-tight">
-              Hi, i'm Your Anil Kumar Mahato I build fast, Beautiful web experiences.
+              Hi, This is Anil Kumar Mahato From Kathmandu
             </h2>
             <p className="mt-4 text-gray-600 max-w-xl">
               I'm a Java developer focused on building performant, responsive interfaces with React and good design. I enjoy learning new
@@ -134,25 +129,6 @@ export default function App() {
             ))}
           </div>
         </section>
-
-                <section id="skills" className="mt-16">
-          <h3 className="text-2xl font-semibold"> SKILLS </h3>
-          <div className="mt-4 flex flex-wrap gap-3">
-            {Skills2.map((s) => (
-              <span key={s} className="px-3 py-1 rounded-full bg-white shadow text-sm">{s}</span>
-            ))}
-          </div>
-        </section>
-
-         {/* Experience */}
-          <section id="Experience" className="mt-16">
-            <h3 className="text-2xl font-semibold"> Experience </h3>
-            <div className="mt-4 flex flex-wrap gap-3">
-              {skills.map((s) => (
-                <span key={s} className="px-3 py-1 rounded-full bg-white shadow text-sm">{s}</span>
-              ))}
-            </div>
-          </section>
 
      
         {/* Contact */}
