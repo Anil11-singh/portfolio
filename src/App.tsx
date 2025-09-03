@@ -34,10 +34,11 @@ export default function App() {
     "CSS / Tailwind",
     "JavaScript / TypeScript", "Java", "Springboot", "Hibernate","SQL"
     ,"React",
-    "Troubleshooting","Networks devices(routers, firewall, switches, Aps)",
+    "Troubleshooting","Networks devices (routers, firewall, switches, Aps)",
      "Providing Desktop support to the users (Hardware/ Software/ Network/ Administration)",
      "Managing SSL Certificates(Domain and email Portals)"
   ];
+  const about = "I am a passionate Java Developer specializing in building efficient, scalable, and reliable applications. Skilled in Java, Spring Boot, Hibernate, and REST APIs, I enjoy solving complex problems and delivering clean, maintainable code. I aim to create impactful software solutions that enhance performance and user experience.";
 
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900 antialiased">
@@ -47,14 +48,16 @@ export default function App() {
             <div className="w-10 h-10 rounded-full bg-gradient-to-br from-indigo-500 to-pink-500 flex items-center justify-center text-white font-bold">A</div>
             <div>
               <h1 className="text-lg font-semibold">Anil Kumar Mahato</h1>
-              <p className="text-xs text-gray-500">Software Engineer</p>
+              <p className="text-xs text-gray-500">Java developer</p>
             </div>
           </div>
 
+
           <nav className="hidden md:flex gap-6 text-sm text-gray-600">
+              <a href="#about" className="hover:text-gray-900">About</a>
             <a href="#projects" className="hover:text-gray-900">Projects</a>
             <a href="#skills" className="hover:text-gray-900">Skills</a>        
-            <a href="#Experience" className="hover:text-gray-900">Experience</a>
+            <a href="#experience" className="hover:text-gray-900">Experience</a>
             <a href="#contact" className="hover:text-gray-900">Contact</a>
           </nav>
 
@@ -71,9 +74,10 @@ export default function App() {
         {/* Hero */}
         <section className="grid md:grid-cols-2 gap-8 items-center">
           <div>
-            <h2 className="text-4xl md:text-5xl font-extrabold leading-tight">
-              Hi, This is Anil Kumar Mahato From Kathmandu
-            </h2>
+           <h2 className="text-4xl md:text-5xl font-extrabold leading-tight -mt-60">
+  Hi, This is Anil Kumar Mahato From Kathmandu
+</h2>
+
             <p className="mt-4 text-gray-600 max-w-xl">
               I'm a Java developer focused on building performant, responsive interfaces with React and good design. I enjoy learning new
               things and turning ideas into production-ready products.
@@ -91,7 +95,7 @@ export default function App() {
             </div>
           </div>
 
-          <div className="bg-white rounded-2xl shadow p-6">
+          <div className="bg-white rounded-2xl shadow p-10">
           <img src={logo} alt="Logo" />
             <div className="mt-4">
               <h3 className="font-semibold">Quick bio</h3>
@@ -100,8 +104,16 @@ export default function App() {
           </div>
         </section>
 
+        <section id="about" className="mt-2">
+            <h3 className="text-2xl font-semibold"> About </h3>
+         <p>
+            {about}
+            </p>
+</section>
+
+      
         {/* Projects */}
-        <section id="projects" className="mt-16">
+        <section id="projects" className="mt-8">
           <h3 className="text-2xl font-semibold">Projects</h3>
           <p className="text-gray-600 mt-2">A few highlights — click to view details.</p>
 
@@ -120,6 +132,7 @@ export default function App() {
           </div>
         </section>
 
+   
         {/* Skills */}
         <section id="skills" className="mt-16">
           <h3 className="text-2xl font-semibold"> SKILLS </h3>
@@ -129,6 +142,42 @@ export default function App() {
             ))}
           </div>
         </section>
+
+      
+  <section id="experience" className="py-16 bg-gray-100">
+      <h2 className="text-3xl font-bold text-left mb-12 text-gray-800">
+        Experience
+      </h2>
+
+      <div className="max-w-20xl mx-auto grid gap-8">
+        {/* Experience Card 1 */}
+        <div className="bg-white shadow-md rounded-2xl p-6 hover:shadow-xl transition">
+          <h3 className="text-xl font-semibold text-gray-900">Java Developer</h3>
+          <p className="text-gray-500 text-sm mb-4">
+            ABC Tech Solutions | 2022 – Present
+          </p>
+          <ul className="list-disc list-inside text-gray-700 space-y-2">
+            <li>Designed and developed scalable web applications using Java, Spring Boot, and Hibernate.</li>
+            <li>Integrated REST APIs and improved system performance by 25%.</li>
+            <li>Collaborated with cross-functional teams to deliver high-quality software solutions.</li>
+          </ul>
+        </div>
+
+        {/* Experience Card 2 */}
+        <div className="bg-white shadow-md rounded-2xl p-6 hover:shadow-xl transition">
+          <h3 className="text-xl font-semibold text-gray-900">Intern - Software Developer</h3>
+          <p className="text-gray-500 text-sm mb-4">
+            XYZ Innovations | 2021 – 2022
+          </p>
+          <ul className="list-disc list-inside text-gray-700 space-y-2">
+            <li>Assisted in building and testing Java-based applications.</li>
+            <li>Learned version control using Git and GitHub.</li>
+            <li>Contributed to debugging and fixing software bugs in ongoing projects.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
 
      
         {/* Contact */}
