@@ -34,8 +34,8 @@ export default function App() {
     "CSS / Tailwind",
     "JavaScript / TypeScript", "Java", "Springboot", "Hibernate","SQL"
     ,"React",
-    "Troubleshooting","Networks devices (routers, firewall, switches, Aps)",
-     "Providing Desktop support to the users (Hardware/ Software/ Network/ Administration)",
+    "Troubleshooting","routers", "firewall", "switches",
+     "Hardware/ Software/ Network/ Administration",
      "Managing SSL Certificates(Domain and email Portals)"
   ];
   const about = "I am a passionate Java Developer specializing in building efficient, scalable, and reliable applications. Skilled in Java, Spring Boot, Hibernate, and REST APIs, I enjoy solving complex problems and delivering clean, maintainable code. I aim to create impactful software solutions that enhance performance and user experience.";
@@ -105,7 +105,7 @@ export default function App() {
         </section>
 
         <section id="about" className="mt-2">
-            <h3 className="text-2xl font-semibold"> About </h3>
+            <h3 className="text-2x1 font-semibold"> About </h3>
          <p>
             {about}
             </p>
@@ -154,7 +154,7 @@ export default function App() {
         <div className="bg-white shadow-md rounded-2xl p-6 hover:shadow-xl transition">
           <h3 className="text-xl font-semibold text-gray-900">Java Developer</h3>
           <p className="text-gray-500 text-sm mb-4">
-            ABC Tech Solutions | 2022 – Present
+            ADDC INFOTECH | 2022 – 2024
           </p>
           <ul className="list-disc list-inside text-gray-700 space-y-2">
             <li>Designed and developed scalable web applications using Java, Spring Boot, and Hibernate.</li>
@@ -165,14 +165,18 @@ export default function App() {
 
         {/* Experience Card 2 */}
         <div className="bg-white shadow-md rounded-2xl p-6 hover:shadow-xl transition">
-          <h3 className="text-xl font-semibold text-gray-900">Intern - Software Developer</h3>
+          <h3 className="text-xl font-semibold text-gray-900">System and Network Engineer</h3>
           <p className="text-gray-500 text-sm mb-4">
-            XYZ Innovations | 2021 – 2022
+            BIG Solutions Pvt Ltd (Mypay) | 2025 – present
           </p>
           <ul className="list-disc list-inside text-gray-700 space-y-2">
-            <li>Assisted in building and testing Java-based applications.</li>
-            <li>Learned version control using Git and GitHub.</li>
-            <li>Contributed to debugging and fixing software bugs in ongoing projects.</li>
+            <li>
+
+Managing Users and Workstations via AD -Setting up, Monitoring and troubleshooting network devices (routers, firewalls, switches and APs).</li>
+            <li>Creating, maintaining & troubleshooting servers (Virtual Machines) using esxi</li>
+              <li >Providing desktop support to the users
+               (Hardware/ Software/ Network/ Administration).</li>
+            <li>Managing SSL certificates, Domain names and email admin portals.</li>
           </ul>
         </div>
       </div>
@@ -202,7 +206,7 @@ export default function App() {
           </form>
         </section>
 
-        <footer className="mt-12 text-center text-gray-500 text-sm">© {new Date().getFullYear()} Anil Kumar Mahato — Built with React & Tailwind</footer>
+        <footer className="mt-12 text-center text-gray-500 text-sm">© {new Date().getFullYear()} Anil Kumar Mahato </footer>
       </main>
     </div>
   );
