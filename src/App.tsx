@@ -4,6 +4,7 @@
 // Tailwind CSS classes are used for styling (no import needed if your project already includes Tailwind)
 // This component is ready to drop into a Create React App / Vite / Next.js page.
 import logo from "./assets/profile_pic.jpg"; 
+import food from "./assets/food.jpg"; 
 export default function App() {
 
   const projects = [
@@ -12,7 +13,7 @@ export default function App() {
       title: "Online Food Order",
       desc: "Online Food Ordering System – A web based platform for browsing menus, placing food orders, and making secure payments online. Built with React, Spring Boot, and MySQL to ensure scalability, real-time tracking, and smooth user experience.",
       link: "#",
-      img: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=800&q=60",
+      img: food,
     },
     {
       id: 2,
@@ -46,33 +47,37 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900 antialiased">
-      <header className="bg-white shadow">
-        <div className="max-w-6xl mx-auto px-6 py-5 flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full bg-gradient-to-br from-indigo-500 to-pink-500 flex items-center justify-center text-white font-bold">A</div>
-            <div>
-              <h1 className="text-lg font-semibold">Anil Kumar Mahato</h1>
-              <p className="text-xs text-gray-500">Java developer</p>
-            </div>
-          </div>
+     <header className="bg-white shadow">
+  <div className="max-w-6xl mx-auto px-6 py-5 flex items-center justify-between">
+    <div className="flex items-center gap-3">
+      <div className="w-10 h-10 rounded-full bg-gradient-to-br from-indigo-500 to-pink-500 flex items-center justify-center text-white font-bold">A</div>
+      <div>
+        <h1 className="text-lg font-semibold">Anil Kumar Mahato</h1>
+        <p className="text-xs text-gray-500">Java developer</p>
+      </div>
+    </div>
 
+    {/* Right side */}
+    <div className="flex items-center gap-6">
+      
 
-          <nav className="hidden md:flex gap-6 text-sm text-gray-600">
-              <a href="#about" className="hover:text-gray-900">About</a>
-               <a href="#skills" className="hover:text-gray-900">Skills</a>  
-            <a href="#projects" className="hover:text-gray-900">Projects</a>     
-            <a href="#experience" className="hover:text-gray-900">Experience</a>
-            <a href="#contact" className="hover:text-gray-900">Contact</a>
-          </nav>
+      <nav className="hidden md:flex gap-6 text-sm text-gray-600">
+        <a href="#about" className="hover:text-gray-900">About</a>
+        <a href="#skills" className="hover:text-gray-900">Skills</a>
+        <a href="#projects" className="hover:text-gray-900">Projects</a>
+        <a href="#experience" className="hover:text-gray-900">Experience</a>
+        <a href="#contact" className="hover:text-gray-900">Contact</a>
+      </nav>
+      <a
+        href="#contact"
+        className="hidden md:inline-block bg-indigo-600 text-white px-4 py-2 rounded-lg text-sm shadow"
+      >
+        Resume
+      </a>
+    </div>
+  </div>
+</header>
 
-          <a
-            href="#contact"
-            className="hidden md:inline-block bg-indigo-600 text-white px-4 py-2 rounded-lg text-sm shadow"
-          >
-            Hire me
-          </a>
-        </div>
-      </header>
 
     
 
