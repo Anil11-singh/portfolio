@@ -5,18 +5,19 @@
 // This component is ready to drop into a Create React App / Vite / Next.js page.
 import logo from "./assets/profile_pic.jpg"; 
 export default function App() {
+
   const projects = [
     {
       id: 1,
       title: "Online Food Order",
-      desc: "A short description of your project, tech used and outcome.",
+      desc: "Online Food Ordering System – A web based platform for browsing menus, placing food orders, and making secure payments online. Built with React, Spring Boot, and MySQL to ensure scalability, real-time tracking, and smooth user experience.",
       link: "#",
       img: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=800&q=60",
     },
     {
       id: 2,
-      title: "Project Two",
-      desc: "Another project — brief summary, role, and tech.",
+      title: "Tomato Leaf Detection",
+      desc: "Tomato Leaf Disease Detection – A deep learning model using Python, TensorFlow, and OpenCV to detect tomato plant diseases from leaf images, enabling early diagnosis and improved crop yield.",
       link: "#",
       img: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=800&q=60",
     },
@@ -29,7 +30,7 @@ export default function App() {
     },
   ];
 
-  const skills = [
+ const skills = [
     "HTML",
     "CSS / Tailwind",
     "JavaScript / TypeScript", "Java", "Springboot", "Hibernate","SQL"
@@ -38,6 +39,9 @@ export default function App() {
      "Hardware/ Software/ Network/ Administration",
      "Managing SSL Certificates(Domain and email Portals)"
   ];
+
+    
+   
   const about = "I am a passionate Java Developer specializing in building efficient, scalable, and reliable applications. Skilled in Java, Spring Boot, Hibernate, and REST APIs, I enjoy solving complex problems and delivering clean, maintainable code. I aim to create impactful software solutions that enhance performance and user experience.";
 
   return (
@@ -55,8 +59,8 @@ export default function App() {
 
           <nav className="hidden md:flex gap-6 text-sm text-gray-600">
               <a href="#about" className="hover:text-gray-900">About</a>
-            <a href="#projects" className="hover:text-gray-900">Projects</a>
-            <a href="#skills" className="hover:text-gray-900">Skills</a>        
+               <a href="#skills" className="hover:text-gray-900">Skills</a>  
+            <a href="#projects" className="hover:text-gray-900">Projects</a>     
             <a href="#experience" className="hover:text-gray-900">Experience</a>
             <a href="#contact" className="hover:text-gray-900">Contact</a>
           </nav>
@@ -70,17 +74,18 @@ export default function App() {
         </div>
       </header>
 
+    
+
       <main className="max-w-6xl mx-auto px-6 py-12">
         {/* Hero */}
         <section className="grid md:grid-cols-2 gap-8 items-center">
           <div>
            <h2 className="text-4xl md:text-5xl font-extrabold leading-tight -mt-60">
-  Hi, This is Anil Kumar Mahato From Kathmandu
-</h2>
+               Hello, I'm Anil!
+                  </h2>
 
             <p className="mt-4 text-gray-600 max-w-xl">
-              I'm a Java developer focused on building performant, responsive interfaces with React and good design. I enjoy learning new
-              things and turning ideas into production-ready products.
+             Java Developer from Kathmandu, crafting scalable solutions with clean code and modern technologies.
             </p>
 
             <div className="mt-6 flex gap-3">
@@ -99,28 +104,45 @@ export default function App() {
           <img src={logo} alt="Logo" />
             <div className="mt-4">
               <h3 className="font-semibold">Quick bio</h3>
-              <p className="text-sm text-gray-600 mt-1">I design and build interfaces that people love to use. I focus on performance, accessibility, and clean code.</p>
+              <p className="text-sm text-gray-600 mt-1">I’m Anil Kumar Mahato, a passionate Java Developer from Kathmandu. I specialize in building efficient, scalable, and reliable applications using Java, Spring Boot, Hibernate, and REST APIs. I enjoy solving complex problems, delivering clean code, and creating impactful software that enhances performance and user experience.</p>
             </div>
           </div>
+        </section>  
+
+
+          {/*About*/}          
+        <section id="about" className="mt-12">             
+             <h3 className="text-2xl font-semibold">About</h3> 
+              <ul className="list-disc list-inside text-gray-700 space-y-2"> 
+             <div className="bg-white shadow-md rounded-2xl p-5 hover:shadow-xl transition">                                  
+             <p>           
+                  {about}                         
+            </p>               
+                 </div>  
+                  </ul>      
+          </section>
+
+  {/* Skills */}
+        <section id="skills" className="mt-16">
+          <h4 className="text-2xl font-semibold"> Skills </h4>
+              <div className="bg-white shadow-md rounded-2xl p-6 hover:shadow-xl transition">
+        <div className="mt-0 flex flex-wrap gap-3">
+            {skills.map((s) => (
+              <span key={s} className="px-7 py-1 rounded-full bg-white shadow text-sm">{s}</span>
+            ))}
+          </div>
+              </div>        
         </section>
-
-        <section id="about" className="mt-2">
-            <h3 className="text-2x1 font-semibold"> About </h3>
-         <p>
-            {about}
-            </p>
-</section>
-
       
         {/* Projects */}
-        <section id="projects" className="mt-8">
-          <h3 className="text-2xl font-semibold">Projects</h3>
+        <section id="projects" className="mt-12">
+          <h5 className="text-2xl font-semibold">Projects</h5>
           <p className="text-gray-600 mt-2">A few highlights — click to view details.</p>
 
           <div className="mt-6 grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
             {projects.map((p) => (
               <a key={p.id} href={p.link} className="block bg-white rounded-2xl shadow overflow-hidden hover:shadow-lg transition">
-                <div className="w-full h-44 bg-gray-100 overflow-hidden">
+                <div className="w-full h-50 bg-gray-100 overflow-hidden">
                   <img src={p.img} alt={p.title} className="w-full h-full object-cover" />
                 </div>
                 <div className="p-4">
@@ -133,23 +155,13 @@ export default function App() {
         </section>
 
    
-        {/* Skills */}
-        <section id="skills" className="mt-16">
-          <h3 className="text-2xl font-semibold"> SKILLS </h3>
-          <div className="mt-4 flex flex-wrap gap-3">
-            {skills.map((s) => (
-              <span key={s} className="px-3 py-1 rounded-full bg-white shadow text-sm">{s}</span>
-            ))}
-          </div>
-        </section>
-
-      
-  <section id="experience" className="py-16 bg-gray-100">
-      <h2 className="text-3xl font-bold text-left mb-12 text-gray-800">
+          
+  <section id="experience" className="py-14 bg-gray-98">
+      <h5 className="text-2xl font-bold text-left mb-10 text-gray-800">
         Experience
-      </h2>
+      </h5>
 
-      <div className="max-w-20xl mx-auto grid gap-8">
+      <div className="max-w-20xl mx-auto grid gap-10">
         {/* Experience Card 1 */}
         <div className="bg-white shadow-md rounded-2xl p-6 hover:shadow-xl transition">
           <h3 className="text-xl font-semibold text-gray-900">Java Developer</h3>
@@ -165,7 +177,7 @@ export default function App() {
 
         {/* Experience Card 2 */}
         <div className="bg-white shadow-md rounded-2xl p-6 hover:shadow-xl transition">
-          <h3 className="text-xl font-semibold text-gray-900">System and Network Engineer</h3>
+          <h6 className="text-xl font-semibold text-gray-900">System and Network Engineer</h6>
           <p className="text-gray-500 text-sm mb-4">
             BIG Solutions Pvt Ltd (Mypay) | 2025 – present
           </p>
@@ -185,15 +197,16 @@ Managing Users and Workstations via AD -Setting up, Monitoring and troubleshooti
 
      
         {/* Contact */}
-        <section id="contact" className="mt-16 bg-white rounded-2xl shadow p-6">
+        <section id="contact" className="mt-18 bg-white rounded-2x1 shadow p-6">
+         
           <div className="md:flex md:items-center md:justify-between">
             <div>
-              <h3 className="text-2xl font-semibold">Let's build something</h3>
+              <h3 className="text-3xl font-semibold">Contact me</h3>
               <p className="text-gray-600 mt-2">I'm available for contract and full-time roles. Send a message and I'll reply within a few days.</p>
             </div>
 
             <div className="mt-4 md:mt-0">
-              <a href="mailto:youremail@example.com" className="inline-block px-5 py-3 bg-indigo-600 text-white rounded-lg shadow">Email me</a>
+              <a href="mailto:aksk5475@gmail.com" className="inline-block px-5 py-3 bg-indigo-600 text-white rounded-lg shadow">Email me</a>
             </div>
           </div>
 
@@ -206,7 +219,8 @@ Managing Users and Workstations via AD -Setting up, Monitoring and troubleshooti
           </form>
         </section>
 
-        <footer className="mt-12 text-center text-gray-500 text-sm">© {new Date().getFullYear()} Anil Kumar Mahato </footer>
+        <footer className="mt-12 text-center text-gray-500 text-sm">© {new Date().getFullYear()} Anil Kumar Mahato. All right reserved.</footer>
+        
       </main>
     </div>
   );
