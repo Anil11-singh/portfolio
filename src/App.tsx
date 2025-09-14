@@ -1,35 +1,36 @@
 
-
 // Single-file React portfolio component
 // Tailwind CSS classes are used for styling (no import needed if your project already includes Tailwind)
 // This component is ready to drop into a Create React App / Vite / Next.js page.
-import logo from "./assets/profile_pic.jpg"; 
-import food from "./assets/food.jpg"; 
-export default function App() {
+              import logo from "./assets/profile_pic.jpg"; 
+              import food from "./assets/food.jpg"; 
+              import leaf from "./assets/leaf.jpg";  
+  
+              export default function App() {
 
-  const projects = [
-    {
-      id: 1,
-      title: "Online Food Order",
-      desc: "Online Food Ordering System – A web based platform for browsing menus, placing food orders, and making secure payments online. Built with React, Spring Boot, and MySQL to ensure scalability, real-time tracking, and smooth user experience.",
-      link: "#",
-      img: food,
-    },
-    {
-      id: 2,
-      title: "Tomato Leaf Detection",
-      desc: "Tomato Leaf Disease Detection – A deep learning model using Python, TensorFlow, and OpenCV to detect tomato plant diseases from leaf images, enabling early diagnosis and improved crop yield.",
-      link: "#",
-      img: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=800&q=60",
-    },
-    {
-      id: 3,
-      title: "Project Three",
-      desc: "Short project blurb that highlights value and outcome.",
-      link: "#",
-      img: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=60",
-    },
-  ];
+                const projects = [
+                  {
+                    id: 1,
+                    title: "Online Food Order",
+                    desc: "Online Food Ordering System – A web based platform for browsing menus, placing food orders, and making secure payments online. Built with React, Spring Boot, and MySQL to ensure scalability, real-time tracking, and smooth user experience.",
+                    link: "#",
+                    img: food,
+                  },
+                  {
+                    id: 2,
+                    title: "Tomato Leaf Detection",
+                    desc: "Tomato Leaf Disease Detection – A deep learning model using Python, TensorFlow, and OpenCV to detect tomato plant diseases from leaf images, enabling early diagnosis and improved crop yield.",
+                    link: "#",
+                    img:  leaf,
+                  },
+                  {
+                    id: 3, 
+                    title: "Project Three",
+                    desc: "Short project blurb that highlights value and outcome.",
+                    link: "#",
+                    img: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=60",
+                  },                  
+                ];
 
  const skills = [
     "HTML",
@@ -40,9 +41,7 @@ export default function App() {
      "Hardware/ Software/ Network/ Administration",
      "Managing SSL Certificates(Domain and email Portals)"
   ];
-
-    
-   
+ 
   const about = "I am a passionate Java Developer specializing in building efficient, scalable, and reliable applications. Skilled in Java, Spring Boot, Hibernate, and REST APIs, I enjoy solving complex problems and delivering clean, maintainable code. I aim to create impactful software solutions that enhance performance and user experience.";
 
   return (
@@ -53,15 +52,14 @@ export default function App() {
       <div className="w-10 h-10 rounded-full bg-gradient-to-br from-indigo-500 to-pink-500 flex items-center justify-center text-white font-bold">A</div>
       <div>
         <h1 className="text-lg font-semibold">Anil Kumar Mahato</h1>
-        <p className="text-xs text-gray-500">Java developer</p>
+        <p className="text-xs text-gray-500"> Java Developer</p>
       </div>
     </div>
 
+
     {/* Right side */}
     <div className="flex items-center gap-6">
-      
-
-      <nav className="hidden md:flex gap-6 text-sm text-gray-600">
+        <nav className="hidden md:flex gap-6 text-sm text-gray-600">
         <a href="#about" className="hover:text-gray-900">About</a>
         <a href="#skills" className="hover:text-gray-900">Skills</a>
         <a href="#projects" className="hover:text-gray-900">Projects</a>
@@ -78,15 +76,12 @@ export default function App() {
   </div>
 </header>
 
-
-    
-
       <main className="max-w-6xl mx-auto px-6 py-12">
         {/* Hero */}
         <section className="grid md:grid-cols-2 gap-8 items-center">
           <div>
            <h2 className="text-4xl md:text-5xl font-extrabold leading-tight -mt-60">
-               Hello, I'm Anil!
+               Hello, I'm Anil 
                   </h2>
 
             <p className="mt-4 text-gray-600 max-w-xl">
@@ -140,7 +135,7 @@ export default function App() {
         </section>
       
         {/* Projects */}
-        <section id="projects" className="mt-12">
+        <section id="projects" className="mt-14">
           <h5 className="text-2xl font-semibold">Projects</h5>
           <p className="text-gray-600 mt-2">A few highlights — click to view details.</p>
 
@@ -158,10 +153,7 @@ export default function App() {
             ))}
           </div>
         </section>
-
-   
-          
-  <section id="experience" className="py-14 bg-gray-98">
+          <section id="experience" className="py-14 bg-gray-98">
       <h5 className="text-2xl font-bold text-left mb-10 text-gray-800">
         Experience
       </h5>
@@ -181,7 +173,7 @@ export default function App() {
         </div>
 
         {/* Experience Card 2 */}
-        <div className="bg-white shadow-md rounded-2xl p-6 hover:shadow-xl transition">
+        <div className="bg-white shadow-md rounded-2xl p-5 hover:shadow-xl transition">
           <h6 className="text-xl font-semibold text-gray-900">System and Network Engineer</h6>
           <p className="text-gray-500 text-sm mb-4">
             BIG Solutions Pvt Ltd (Mypay) | 2025 – present
@@ -198,11 +190,9 @@ Managing Users and Workstations via AD -Setting up, Monitoring and troubleshooti
         </div>
       </div>
     </section>
-
-
      
         {/* Contact */}
-        <section id="contact" className="mt-18 bg-white rounded-2x1 shadow p-6">
+        <section id="contact" className="mt-6 bg-white rounded-2x1 shadow p-6">
          
           <div className="md:flex md:items-center md:justify-between">
             <div>
