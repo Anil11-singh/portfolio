@@ -1,12 +1,9 @@
-
-// Single-file React portfolio component
-// Tailwind CSS classes are used for styling (no import needed if your project already includes Tailwind)
-// This component is ready to drop into a Create React App / Vite / Next.js page.
-              import logo from "./assets/profile_pic.jpg"; 
-              import food from "./assets/food.jpg"; 
-              import leaf from "./assets/leaf.jpg";  
+   import logo from "./assets/profile_pic.jpg"; 
+   import food from "./assets/food.png"; 
+   import leaf from "./assets/leaf.png";  
+   import hospital from "./assets/hospital.jpg";
   
-              export default function App() {
+      export default function App() {
 
                 const projects = [
                   {
@@ -18,17 +15,17 @@
                   },
                   {
                     id: 2,
-                    title: "Tomato Leaf Detection",
+                    title: "Tomato Leaf Disease Detection",
                     desc: "Tomato Leaf Disease Detection – A deep learning model using Python, TensorFlow, and OpenCV to detect tomato plant diseases from leaf images, enabling early diagnosis and improved crop yield.",
                     link: "#",
                     img:  leaf,
                   },
                   {
                     id: 3, 
-                    title: "Project Three",
-                    desc: "Short project blurb that highlights value and outcome.",
+                    title: "Hospital Management System",
+                    desc: "A web-based platform that helps hospitals manage patient records, doctor appointments, billing, and inventory efficiently. Built with modern technologies to improve hospital workflow and enhance patient care.",
                     link: "#",
-                    img: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=60",
+                    img:  hospital,
                   },                  
                 ];
 
@@ -66,43 +63,51 @@
         <a href="#experience" className="hover:text-gray-900">Experience</a>
         <a href="#contact" className="hover:text-gray-900">Contact</a>
       </nav>
-      <a
-        href="#contact"
-        className="hidden md:inline-block bg-indigo-600 text-white px-4 py-2 rounded-lg text-sm shadow"
-      >
-        Resume
-      </a>
-    </div>
-  </div>
-</header>
+     <a
+    href="/resume.pdf"
+     target="_blank"
+       rel="noopener noreferrer"
+          className="hidden md:inline-block bg-indigo-600 text-white px-4 py-2 rounded-lg text-sm shadow">
 
-      <main className="max-w-6xl mx-auto px-6 py-12">
+             View Resume
+        </a>
+           </div>
+               </div>                  
+                         
+                   
+                   
+    </header>   
+        <main className="max-w-6xl mx-auto px-6 py-12">
         {/* Hero */}
-        <section className="grid md:grid-cols-2 gap-8 items-center">
+
+       <section className="grid md:grid-cols-2 gap-8 items-center">
           <div>
-           <h2 className="text-4xl md:text-5xl font-extrabold leading-tight -mt-60">
+          
+
+               <h2 className="text-4xl md:text-5xl font-extrabold leading-tight -mt-70">
                Hello, I'm Anil 
-                  </h2>
+              </h2>
 
-            <p className="mt-4 text-gray-600 max-w-xl">
-             Java Developer from Kathmandu, crafting scalable solutions with clean code and modern technologies.
-            </p>
+          <p className="mt-4 text-gray-600 max-w-xl">
+                   Java Developer from Kathmandu, crafting scalable solutions with clean code and modern technologies.
+        </p>
 
-            <div className="mt-6 flex gap-3">
+      <div className="mt-6 flex gap-3">
               <a href="#projects" className="inline-block px-5 py-3 bg-gray-900 text-white rounded-lg shadow">View projects</a>
               <a href="#contact" className="inline-block px-5 py-3 border border-gray-200 rounded-lg">Get in touch</a>
+            
             </div>
 
             <div className="mt-8 flex flex-wrap gap-2 text-xs text-gray-500">
-              <span>📍 Kirtipur Kathmandu, Nepal</span>
+              <span>📍 Imadol Kathmandu, Nepal</span>
               <span>.</span>
-              <span>Available for remote work</span>
+              <span>📍Available for remote work</span>
             </div>
           </div>
 
-          <div className="bg-white rounded-2xl shadow p-10">
+          <div className="bg-white rounded-2xl shadow p-8">
           <img src={logo} alt="Logo" />
-            <div className="mt-4">
+            <div className="mt-6">
               <h3 className="font-semibold">Quick bio</h3>
               <p className="text-sm text-gray-600 mt-1">I’m Anil Kumar Mahato, a passionate Java Developer from Kathmandu. I specialize in building efficient, scalable, and reliable applications using Java, Spring Boot, Hibernate, and REST APIs. I enjoy solving complex problems, delivering clean code, and creating impactful software that enhances performance and user experience.</p>
             </div>
@@ -112,7 +117,7 @@
 
           {/*About*/}          
         <section id="about" className="mt-12">             
-             <h3 className="text-2xl font-semibold">About</h3> 
+             <h3 className="text-xl font-semibold">About</h3> 
               <ul className="list-disc list-inside text-gray-700 space-y-2"> 
              <div className="bg-white shadow-md rounded-2xl p-5 hover:shadow-xl transition">                                  
              <p>           
@@ -142,7 +147,7 @@
           <div className="mt-6 grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
             {projects.map((p) => (
               <a key={p.id} href={p.link} className="block bg-white rounded-2xl shadow overflow-hidden hover:shadow-lg transition">
-                <div className="w-full h-50 bg-gray-100 overflow-hidden">
+                <div className="w-full h-75 bg-gray-100 overflow-hidden">
                   <img src={p.img} alt={p.title} className="w-full h-full object-cover" />
                 </div>
                 <div className="p-4">
