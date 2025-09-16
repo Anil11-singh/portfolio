@@ -117,17 +117,17 @@
 
           {/*About*/}          
         <section id="about" className="mt-12">             
-             <h3 className="text-xl font-semibold">About</h3> 
+             <h3 className="text-2xl font-semibold">About</h3> 
               <ul className="list-disc list-inside text-gray-700 space-y-2"> 
              <div className="bg-white shadow-md rounded-2xl p-5 hover:shadow-xl transition">                                  
              <p>           
                   {about}                         
             </p>               
-                 </div>  
-                  </ul>      
-          </section>
+              </div>  
+                   </ul>      
+                      </section>
 
-  {/* Skills */}
+      {/* Skills */}
         <section id="skills" className="mt-16">
           <h4 className="text-2xl font-semibold"> Skills </h4>
               <div className="bg-white shadow-md rounded-2xl p-6 hover:shadow-xl transition">
@@ -184,9 +184,7 @@
             BIG Solutions Pvt Ltd (Mypay) | 2025 – present
           </p>
           <ul className="list-disc list-inside text-gray-700 space-y-2">
-            <li>
-
-Managing Users and Workstations via AD -Setting up, Monitoring and troubleshooting network devices (routers, firewalls, switches and APs).</li>
+            <li>Managing Users and Workstations via AD -Setting up, Monitoring and troubleshooting network devices (routers, firewalls, switches and APs).</li>
             <li>Creating, maintaining & troubleshooting servers (Virtual Machines) using esxi</li>
               <li >Providing desktop support to the users
                (Hardware/ Software/ Network/ Administration).</li>
