@@ -49,7 +49,7 @@ export default function App() {
     "I am a passionate Java Developer specializing in building efficient, scalable, and reliable applications. Skilled in Java, Spring Boot, Hibernate, and REST APIs, I enjoy solving complex problems and delivering clean, maintainable code. I aim to create impactful software solutions that enhance performance and user experience.";
 
   return (
-    <div className="min-h-screen bg-gray-50 text-gray-900 antialiased">
+    <div className="min-h-screen bg-green-50 text-gray-900 antialiased">
       {/* Header */}
       <header className="bg-white shadow">
         <div className="max-w-6xl mx-auto px-6 py-5 flex items-center justify-between">
@@ -65,33 +65,25 @@ export default function App() {
           </div>
 
           {/* Right */}
-          <div className="flex items-center gap-6">
-            <nav className="hidden md:flex gap-6 text-sm text-gray-600">
-              <a href="#about" className="hover:text-gray-900">
-                About
-              </a>
-              <a href="#skills" className="hover:text-gray-900">
-                Skills
-              </a>
-              <a href="#projects" className="hover:text-gray-900">
-                Projects
-              </a>
-              <a href="#experience" className="hover:text-gray-900">
-                Experience
-              </a>
-              <a href="#contact" className="hover:text-gray-900">
-                Contact
-              </a>
-            </nav>
-            <a
-              href="/resume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-indigo-600 text-white px-4 py-2 rounded-lg text-sm shadow"
-            >
-              View Resume
-            </a>
-          </div>
+   <div className="flex items-center gap-6 bg-blue-600 px-6 py-4 shadow">
+  <nav className="hidden md:flex gap-6 text-sm text-white">
+    <a href="#about" className="hover:text-gray-200">About</a>
+    <a href="#skills" className="hover:text-gray-200">Skills</a>
+    <a href="#projects" className="hover:text-gray-200">Projects</a>
+    <a href="#experience" className="hover:text-gray-200">Experience</a>
+    <a href="#contact" className="hover:text-gray-200">Contact</a>
+  </nav>
+  <a
+    href="/resume.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block bg-white text-black-600 px-4 py-2 rounded-lg text-sm shadow hover:bg-gray-100 transition"
+  > 
+    View Resume
+  </a>
+</div>
+
+
         </div>
       </header>
 
@@ -147,17 +139,17 @@ export default function App() {
         </section>
 
         {/* About */}
-        <section id="about" className="mt-12">
+        <section id="about" className="mt-10">
           <h3 className="text-2xl font-semibold">About</h3>
-          <div className="bg-white shadow-md rounded-2xl p-5 hover:shadow-xl transition mt-4">
+          <div className="bg-white shadow-md rounded-2xl p-5 hover:shadow-xl transition mt-5">
             <p>{about}</p>
           </div>
         </section>
 
         {/* Skills */}
-        <section id="skills" className="mt-16">
+        <section id="skills" className="mt-12">
           <h4 className="text-2xl font-semibold">Skills</h4>
-          <div className="bg-white shadow-md rounded-2xl p-6 hover:shadow-xl transition mt-4">
+          <div className="bg-white shadow-md rounded-2xl p-6 hover:shadow-xl transition mt-5">
             <div className="flex flex-wrap gap-3">
               {skills.map((s) => (
                 <span
@@ -185,7 +177,7 @@ export default function App() {
                 href={p.link}
                 className="block bg-white rounded-2xl shadow overflow-hidden hover:shadow-lg transition"
               >
-                <div className="w-full h-48 bg-gray-100 overflow-hidden">
+                <div className="w-full h-80 bg-gray-100 overflow-hidden">
                   <img
                     src={p.img}
                     alt={p.title}
@@ -202,8 +194,8 @@ export default function App() {
         </section>
 
         {/* Experience */}
-        <section id="experience" className="py-14">
-          <h5 className="text-2xl font-bold text-left mb-10 text-gray-800">
+        <section id="experience" className="py-15">
+          <h5 className="text-2xl font-bold text-left mb-7 text-gray-800">
             Experience
           </h5>
 
@@ -266,7 +258,7 @@ export default function App() {
         <section id="contact" className="mt-6 bg-white rounded-2xl shadow p-6">
           <div className="md:flex md:items-center md:justify-between">
             <div>
-              <h3 className="text-3xl font-semibold">Contact me</h3>
+              <h3 className="text-3xl font-semibold">Reach me</h3>
               <p className="text-gray-600 mt-2">
                 I'm available for contract and full-time roles. Send a message
                 and I'll reply within a few days.
