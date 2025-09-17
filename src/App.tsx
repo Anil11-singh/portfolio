@@ -51,7 +51,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-green-50 text-gray-900 antialiased">
       {/* Header */}
-      <header className="bg-white shadow">
+      <header className="bg-orange shadow">
         <div className="max-w-6xl mx-auto px-6 py-5 flex items-center justify-between">
           {/* Left */}
           <div className="flex items-center gap-3">
@@ -65,8 +65,8 @@ export default function App() {
           </div>
 
           {/* Right */}
-   <div className="flex items-center gap-6 bg-blue-600 px-6 py-4 shadow">
-  <nav className="hidden md:flex gap-6 text-sm text-white">
+   <div className="flex items-center gap-6 bg-green-600 px-6 py-4 shadow">
+  <nav className="hidden md:flex gap-6 text-sm text-gray">
     <a href="#about" className="hover:text-gray-200">About</a>
     <a href="#skills" className="hover:text-gray-200">Skills</a>
     <a href="#projects" className="hover:text-gray-200">Projects</a>
