@@ -128,7 +128,7 @@ export default function App() {
               <h3 className="font-semibold">Quick bio</h3>
               <p className="text-sm text-gray-600 mt-1">
                 I’m Anil Kumar Mahato, a passionate Java Developer from
-                Kathmandu. I specialize in building efficient, scalable, and
+                Kathmandu. I specialize in building efficient, scalable,and
                 reliable applications using Java, Spring Boot, Hibernate, and
                 REST APIs. I enjoy solving complex problems, delivering clean
                 code, and creating impactful software that enhances performance
@@ -261,7 +261,7 @@ export default function App() {
               <h3 className="text-3xl font-semibold">Reach me</h3>
               <p className="text-gray-600 mt-2">
                 I'm available for contract and full-time roles. Send a message
-                and I'll reply within a few days.
+                and I'll reply within as soon as possible.
               </p>
             </div>
 
@@ -276,8 +276,7 @@ export default function App() {
           </div>
 
           <form className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
-            <input
-              className="p-3 border rounded-lg"
+            <input  className="p-3 border rounded-lg"
               placeholder="Your name"
             />
             <input className="p-3 border rounded-lg" placeholder="Email" />
@@ -289,7 +288,7 @@ export default function App() {
               className="p-3 border rounded-lg md:col-span-2"
               rows={4}
               placeholder="Message"
-            ></textarea>
+            ></textarea>    
             <button
               type="button"
               className="md:col-span-2 px-5 py-3 bg-gray-900 text-white rounded-lg"
@@ -300,7 +299,7 @@ export default function App() {
         </section>
 
         <footer className="mt-12 text-center text-gray-500 text-sm">
-          © {new Date().getFullYear()} Anil Kumar Mahato. All rights reserved.
+          © {new Date().getFullYear()} Anil Kumar Mahato.  All rights reserved.
         </footer>
       </main>
     </div>
