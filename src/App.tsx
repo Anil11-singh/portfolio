@@ -405,7 +405,7 @@ export default function App() {
               className="md:col-span-2 px-5 py-3  bg-green-900 text-white rounded-lg">
               Send message
             </button>
-          </form>
+          </form>hello this is another code 
         </section> */}
 
         <footer className="mt-0 text-center text-gray-400 text-sm">
