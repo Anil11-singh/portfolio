@@ -2,7 +2,7 @@
 #root {
   /* max-width: 50%; */
   margin: 0 auto;
-  padding: 2rem;
+  /* padding: 1rem; */
   text-align: center;
 }
 
@@ -13,9 +13,9 @@
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #64ff71aa);
+  filter: drop-shadow(0 0 2em #64ffffaa);
 }
-.logo.react:hover {
+.logo.react:hover{
   filter: drop-shadow(0 0 2em #fb61eeaa);
 }
 
@@ -27,17 +27,28 @@
     transform: rotate(360deg);
   }
 }
-
+                                                   
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
 }
-
+   
 .card {
   padding: 2em;
-}
-
+}s
+                            
 .read-the-docs {
   color: #888888;
 }
+/* body {
+  background: linear-gradient(180deg, #0e2f775d 0%, #154a75 50%, #0a365a 100%);
+  color: #f1f1f1; */
+   body {
+     /* background: linear-gradient(180deg, #051727 0%, #051727 50%, #01131a 100%);
+    color: #032039; */
+   /* background: linear-gradient(180deg, #020617, #020b2d); */
+   background: linear-gradient(180deg, #020617, #020b2d);
+
+
+} 

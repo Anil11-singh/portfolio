@@ -13,7 +13,7 @@ If you are developing a production application, we recommend updating the config
 
 ```js
 export default tseslint.config([
-  globalIgnores(['dist']),
+  globalIgnores([' dist']),
   {
     files: ['**/*.{ts,tsx}'],
     extends: [
@@ -25,7 +25,7 @@ export default tseslint.config([
       ...tseslint.configs.strictTypeChecked,
       // Optionally, add this for stylistic rules
       ...tseslint.configs.stylisticTypeChecked,
-
+                     
       // Other configs...
     ],
     languageOptions: {
