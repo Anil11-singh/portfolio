@@ -151,7 +151,7 @@ export default function App() {
         </section>
 
         {/* About */}   
-      <section id="about" className="mt-1 text-left">
+      <section id="about" className="mt-12 text-left">
   <h3 className="text-2xl font-semibold">About</h3>
   <div className="bg-red text-gray-300 border rounded-2xl p-5 hover:shadow-x1 transition mt-5 text-left">
     
@@ -160,7 +160,7 @@ export default function App() {
 </section>
 
         {/* Skills */}
-        <section id="skills" className="mt-12 mt-1 text-left">
+        <section id="skills" className="mt-14 mt-1 text-left">
           <h4 className="text-2xl font-semibold">Skills</h4>
           <div className="bg-blue text-white-100 border rounded-2xl p-6 hover:shadow-xl transition mt-5">
             <div className="flex flex-wrap gap-3">
@@ -178,11 +178,11 @@ export default function App() {
         {/* Projects */}
         <section id="projects" className="mt-14 mt-1 text-left">
           <h5 className="text-2xl font-semibold">Projects</h5>
-          <p className="text-gray-300 mt-2">
+          <p className="text-gray-300 mt-0">
             A few highlights — click to view details.
           </p>
                                   
-          <div className="mt-6 grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-2 grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
             {projects.map((p) => (
               <a
                 key={p.id}
@@ -206,10 +206,10 @@ export default function App() {
                             
         {/* Experience */}
         <section id="experience" className="py-15">
-          <h5 className="text-2xl font-bold text-left mb-7 text-gray-200">
+          <h5 className="text-2xl font-bold text-left mb-0 text-gray-200">
             Experience
           </h5>
-          <h6 className="text-1xl text-left mb-2 text-gray-400">
+          <h6 className="text-1xl text-left mb-0 text-gray-400">
             Where I've worked recently.
           </h6>
 
@@ -272,19 +272,19 @@ export default function App() {
 
       {/* Contact */}
         {
-    <div className="min-h-screen bg-gradient-to-br from-blue-slate-900 to-blue flex items-center justify-center px-0">
+    <div className="min-h-screen bg-gradient-to-br mt-8 from-blue-slate-900 to-blue flex items-center justify-center px-0">
                                                                                                                       
-      <div className="m-w-6xl w-full">
+      <div className="m-w-xl w-full">
         {/* Header */}
-        <div className="mb-10">
-          <h1 className="text-2xl text-left font-bold text-white">Contact</h1>
-          <p className="text-slate-400 text-left mt-2">
+        <div className="mb-2">
+          <h1 className="text-2xl text-left mb-0 font-bold text-white">Contact</h1>
+          <p className="text-slate-400 text-left mt-0">
             Got a project? Let’s talk.
           </p>
         </div>  
                                                                                                                                                   
         {/* Main Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 mb-8 md:grid-cols-3 gap-6">
                                                                   
           {/* Contact Form */}
           <div className="md:col-span-2 rounded-2xl border border-white/510 bg-linear-gradient-to-br from-linear-gradient-900 to-slate-950 p-6 shadow-xl">
