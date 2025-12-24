@@ -106,7 +106,7 @@ export default function App() {
               Java Developer from Kathmandu, crafting scalable solutions with
               clean code and modern technologies.
             </p>
-
+                 
             <div className="mt-6 flex gap-3">
               <a
                 href="#projects"
@@ -210,9 +210,9 @@ export default function App() {
             Experience
           </h5>
           <h6 className="text-1xl text-left mb-0 text-gray-400">
-            Where I've worked recently.
+            Where I've worked recentlys.
           </h6>
-
+                                                                
           <div className="grid gap-10">
 
              {/* Experience Card 1 */}
@@ -328,7 +328,7 @@ export default function App() {
               Reach me
             </h2>
                            
-            <p className="text-slate-300 mb-2">
+            <p className="text-slate-300 mb-2">  
               Email: <span className="text-slate-200">aksk5475@gmail.com</span>
             </p>
                      
@@ -336,6 +336,7 @@ export default function App() {
               Phone: <span className="text-slate-200">+977-9827816628</span>
             </p>
                                                     
+
             <div className="flex gap-3 flex-wrap">
               <a
                 href="https://github.com/Anil11-singh"
