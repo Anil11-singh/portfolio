@@ -207,7 +207,7 @@ export default function App() {
         {/* Experience */}
         <section id="experience" className="py-15">
           <h5 className="text-2xl font-bold text-left mb-0 text-gray-200">
-            Experience
+            Experienced
           </h5>
           <h6 className="text-1xl text-left mb-0 text-gray-400">
             Where I've worked recently.
