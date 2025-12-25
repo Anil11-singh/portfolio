@@ -210,7 +210,7 @@ export default function App() {
             Experience
           </h5>
           <h6 className="text-1xl text-left mb-0 text-gray-400">
-            Where I've worked recentlys.
+            Where I've worked recently.
           </h6>
                                                                 
           <div className="grid gap-10">
