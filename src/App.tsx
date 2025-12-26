@@ -174,7 +174,7 @@ export default function App() {
             </div>
           </div>
         </section>
-
+                            
         {/* Projects */}
         <section id="projects" className="mt-14 mt-1 text-left">
           <h5 className="text-2xl font-semibold">Projects</h5>
