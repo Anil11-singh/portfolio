@@ -245,7 +245,7 @@ export default function App() {
             </div>
           </div>
         </section> 
-                                       
+                                                      
             {/* Experience Card 2 */}              
             <div className="bg-blue border rounded-2xl p-6 hover:shadow-xl transition mt-1 text-left">
               <h3 className="text-xl font-semibold text-White-300 ">
@@ -310,7 +310,7 @@ export default function App() {
             </div>
                             
             <div className="mb-6">
-              <label className="text-slate-300 text-sm">Message</label>
+              <label className="text-slate-300 text-sm">Messaged</label>
               <textarea
                 placeholder="Tell me about your idea..."
                 className="mt-1 w-full rounded-xl bg-linear-gradient/510 border border-white/10 px-4 py-3 text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-indigo-500"
