@@ -79,7 +79,7 @@ export default function App() {
     <a href="#about" className="hover:text-white-200">About</a>
     <a href="#skills" className="hover:text-gray-200">Skills</a>
     <a href="#projects" className="hover:text-gray-200">Projects</a>
-    <a href="#experience" className="hover:text-gray-200">Experience</a>
+    <a href="#experience" className="hover:text-gray-200">Experienced</a>
     <a href="#contact" className="hover:text-gray-200">Contact</a>
   </nav>
   <a
@@ -116,7 +116,7 @@ export default function App() {
               <a
                 href="#contact"
                 className="inline-block px-5 py-3 bg-blue-900 text-white border border-gray-700 rounded- shadow">
-              
+  
                 Get in touch
               </a>
             </div>
@@ -203,7 +203,7 @@ export default function App() {
             ))}
           </div>
         </section>
-                            
+                        
         {/* Experience */}
         <section id="experience" className="py-15">
           <h5 className="text-2xl font-bold text-left mb-0 text-gray-200">
@@ -282,7 +282,7 @@ export default function App() {
             Got a project? Let’s talk.
           </p>
         </div>  
-                                                                                                                                                  
+                                                                                                                                                        
         {/* Main Grid */}
         <div className="grid grid-cols-1 mb-8 md:grid-cols-3 gap-6">
                                                                   
@@ -308,7 +308,7 @@ export default function App() {
                 />
               </div>
             </div>
-                            
+                                                        
             <div className="mb-6">
               <label className="text-slate-300 text-sm">Message</label>
               <textarea
@@ -330,8 +330,7 @@ export default function App() {
                            
             <p className="text-slate-300 mb-2">  
               Email: <span className="text-slate-200">aksk5475@gmail.com</span>
-            </p>
-                     
+            </p>                    
             <p className="text-slate-300 mb-6">
               Phone: <span className="text-slate-200">+977-9827816628</span>
             </p>
