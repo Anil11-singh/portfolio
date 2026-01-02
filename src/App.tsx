@@ -79,7 +79,7 @@ export default function App() {
     <a href="#about" className="hover:text-white-200">About</a>
     <a href="#skills" className="hover:text-gray-200">Skills</a>
     <a href="#projects" className="hover:text-gray-200">Projects</a>
-    <a href="#experience" className="hover:text-gray-200">Experience</a>
+    <a href="#experience" className="hover:text-gray-200">Experienced</a>
     <a href="#contact" className="hover:text-gray-200">Contact</a>
   </nav>
   <a
