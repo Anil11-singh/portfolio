@@ -99,7 +99,7 @@ export default function App() {
         <section className="grid md:grid-cols-2 gap-8 items-center">
           <div>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight">
-             Hi, I'm Anil kumar Mahato👋
+             Hi, I'm Anil kumar Mahato
             </h2>
 
             <p className="mt-4 text- white-500 max-w-xl">
