@@ -50,7 +50,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen background text-white antialiased">
-      
+                                                                      
       {/* Header */}
       <header
   className="bg-orange"
@@ -72,7 +72,7 @@ export default function App() {
               {/* <p className="text-xs text-white-400">Java Developer</p> */}
             </div>
           </div>
-
+              
           {/* Right */}
    <div className="flex items-center gap-6 bgbg-gray-50 bg-gradient-to-r from-blue-300  to-purple-300 text-slate-900 px-6 py-4 shadow">
   <nav className="hidden md:flex gap-6 text-sm text-black-200">
@@ -90,7 +90,7 @@ export default function App() {
     View Resume
   </a>
 </div>
-                    
+                      
         </div>
       </header>
 
@@ -212,7 +212,7 @@ export default function App() {
           <h6 className="text-1xl text-left mb-0 text-gray-400">
             Where I've worked recently.
           </h6>
-                                                                
+                                                                     
           <div className="grid gap-10">
 
              {/* Experience Card 1 */}
@@ -274,7 +274,7 @@ export default function App() {
         {
     <div className="min-h-screen bg-gradient-to-br mt-8 from-blue-slate-900 to-blue flex items-center justify-center px-0">
                                                                                                                       
-      <div className="m-w-xl w-full">
+      <div className="m-2-w-xl w-full">
         {/* Header */}
         <div className="mb-2">
           <h1 className="text-2xl text-left mb-0 font-bold text-white">Contact</h1>
@@ -284,7 +284,9 @@ export default function App() {
         </div>  
                                                                                                                                                         
         {/* Main Grid */}
-        <div className="grid grid-cols-1 mb-8 md:grid-cols-3 gap-6">
+        {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-6"> */}
+                   
+        <div className="grid grid-cols-1 mb-28 md:grid-cols-3 gap-6">
                                                                   
           {/* Contact Form */}
           <div className="md:col-span-2 rounded-2xl border border-white/510 bg-linear-gradient-to-br from-linear-gradient-900 to-slate-950 p-6 shadow-xl">
@@ -323,7 +325,7 @@ export default function App() {
           </div>
                                    
           {/* Reach Me Card */}
-          <div className="rounded-2xl border border-white/510 bg-linear-gradient-to-b from-slate-900 to-slate-950 p-8 shadow-xl">
+          <div className="rounded-2xl border border-white/510 bg-linear-gradient-to-b from-slate-900 to-slate-950 p-12 shadow-xl">
             <h2 className="text-xl font-semibold text-white mb-4">
               Reach me
             </h2>
@@ -407,7 +409,7 @@ export default function App() {
             </button>
           </form>hello this is another code 
         </section> */}
-
+ 
         <footer className="mt-0 text-center text-gray-400 text-sm">
           © {new Date().getFullYear()} Anil Kumar Mahato.  All rights reserved.
           
