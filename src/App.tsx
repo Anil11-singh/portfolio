@@ -137,14 +137,14 @@ export default function App() {
               <h3 className="font-semibold">Quick bio</h3>     
                     
               <p className="text-sm text-gray-300 mt-1 mt-1 text-left">
-       
+          
                 I’m Anil Kumar Mahato, a passionate Java Developer from
                 Kathmandu. I specialize in building efficient, scalable,and
                 reliable applications using Java, Spring Boot, Hibernate, and                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
                 REST APIs. I enjoy solving complex problems, delivering clean
                 code, and creating impactful software that enhances performance
                 and user experience.
-           
+                                            
                </p>
             </div>
           </div>
@@ -272,7 +272,7 @@ export default function App() {
 
       {/* Contact */}
         {
-    <div className="min-h-screen bg-gradient-to-br mt-8 from-blue-slate-900 to-blue flex items-center justify-center px-0">
+    <div className="min-h-screen bg-gradient-to-br mt-4 from-blue-slate-900 to-blue flex items-center justify-center px-0">
                                                                                                                       
       <div className="m-2-w-xl w-full">
         {/* Header */}
