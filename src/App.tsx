@@ -1,8 +1,8 @@
-import logo from "./assets/profile_pic.jpg";
-import food from "./assets/food.png";
-import leaf from "./assets/leaf.png";
-import hospital from "./assets/hospital.jpg";
-import "./App.css";
+import logo from " ./assets/profile_pic.jpg";
+import food from " ./assets/food.png";
+import leaf from " ./assets/leaf.png";
+import hospital from " ./assets/hospital.jpg";
+import " ./App.css";
 
 export default function App() {
   const projects = [
