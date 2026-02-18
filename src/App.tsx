@@ -272,7 +272,8 @@ export default function App() {
 
       {/* Contact */}
         {
-    <div className="min-h-screen bg-gradient-to-br mt-4 from-blue-slate-900 to-blue flex items-center justify-center px-0">
+   <div className="min-h-screen bg-gradient-to-br mt-4 from-blue-slate-900 to-blue flex items-center justify-center px-0">
+
                                                                                                                       
       <div className="m-2-w-xl w-full">
         {/* Header */}
