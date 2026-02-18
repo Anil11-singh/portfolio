@@ -177,7 +177,7 @@ export default function App() {
                             
         {/* Projects */}
         <section id="projects" className="mt-14 mt-1 text-left">
-          <h5 className="text-2xl font-semibold">Projects</h5>
+          <h5 className="text-2xl font-semibold">Project</h5>
           <p className="text-gray-300 mt-0">
             A few highlights — click to view details.
           </p>
