@@ -177,7 +177,7 @@ export default function App() {
                             
         {/* Projects */}
         <section id="projects" className="mt-14 mt-1 text-left">
-          <h5 className="text-2xl font-semibold">Project</h5>
+          <h5 className="text-2xl font-semibold">Projects</h5>
           <p className="text-gray-300 mt-0">
             A few highlights — click to view details.
           </p>
@@ -192,8 +192,7 @@ export default function App() {
                   <img
                     src={p.img}
                     alt={p.title}
-                    className="w-full h-full object-cover"
-                  />
+                    className="w-full h-full object-cover"/>
                 </div>
                 <div className="p-4">
                   <h4 className="font-semibold">{p.title}</h4>
@@ -203,7 +202,7 @@ export default function App() {
             ))}
           </div>
         </section>
-                        
+                                                                                                              
         {/* Experience */}
         <section id="experience" className="py-15">
           <h5 className="text-2xl font-bold text-left mb-0 text-gray-200">
