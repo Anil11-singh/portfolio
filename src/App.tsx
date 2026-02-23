@@ -355,7 +355,7 @@ export default function App() {
                 href="https://www.facebook.com/share/1JetNCGbXC/#"
                 className="px-4 py-2 rounded-xl border border-white/20 text-white hover:bg-white/10 transition"
               >
-                FB
+                Facebook
               </a>
             </div>
           </div>
