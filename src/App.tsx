@@ -111,7 +111,7 @@ export default function App() {
               <a
                 href="#projects"
                 className="inline-block px-5 py-3 text-center bg-orange-900 text-white border border-gray-700 rounded-lg shadow">
-                View project
+                View projects
               </a>
               <a
                 href="#contact"
@@ -295,7 +295,7 @@ export default function App() {
               <div>
                 <label className="text-slate-300text-left text-sm text-left">Name</label>
                 <input
-                  type="text"
+                  type="text" 
                   placeholder="Your name"
                   className="mt-1 w-full rounded-xl bg-linear-gradient-/5 border border-white/10 px-4 py-2 text-white text-left placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-indigo-500"
                 />
