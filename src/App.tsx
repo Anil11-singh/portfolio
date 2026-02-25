@@ -179,7 +179,7 @@ export default function App() {
         <section id="projects" className="mt-14 mt-1 text-left">
           <h5 className="text-2xl font-semibold">Projects</h5>
           <p className="text-gray-300 mt-0">
-            A few highlights — click to view details.
+            A few highlights — click to view details
           </p>
                                   
           <div className="mt-2 grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
@@ -213,7 +213,7 @@ export default function App() {
           </h6>
                                                                      
           <div className="grid gap-10">
-
+                                        
              {/* Experience Card 1 */}
             <div className="bg-blue border rounded-2xl p-6 hover:shadow-xl transition mt-1 text-left">
               <h6 className="text-x1 font-semibold text-white-300">
