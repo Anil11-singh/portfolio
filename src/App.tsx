@@ -101,7 +101,7 @@ export default function App() {
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight">
              Hi, I'm Anil kumar Mahato
             </h2>
-
+                         
             <p className="mt-4 text- white-500 max-w-xl">
               Java Developer from Kathmandu, crafting scalable solutions with
               clean code and modern technologies.
@@ -111,7 +111,7 @@ export default function App() {
               <a
                 href="#projects"
                 className="inline-block px-5 py-3 text-center bg-orange-900 text-white border border-gray-700 rounded-lg shadow">
-                View projects
+                View projectss
               </a>
               <a
                 href="#contact"
@@ -149,12 +149,12 @@ export default function App() {
             </div>
           </div>
         </section>
-
+                                          
         {/* About */}   
       <section id="about" className="mt-12 text-left">
   <h3 className="text-2xl font-semibold">About</h3>
   <div className="bg-red text-gray-300 border rounded-2xl p-5 hover:shadow-x1 transition mt-5 text-left">
-    
+                                      
     <p>{about}</p>
   </div>
 </section>
@@ -202,7 +202,7 @@ export default function App() {
             ))}
           </div>
         </section>
-                                                                                                              
+                                                                                                                                                        
         {/* Experience */}
         <section id="experience" className="py-15">
           <h5 className="text-2xl font-bold text-left mb-0 text-gray-200">
@@ -267,8 +267,7 @@ export default function App() {
               </ul>
             </div>
 
-               
-
+              
       {/* Contact */}
         {
    <div className="min-h-screen bg-gradient-to-br mt-4 from-blue-slate-900 to-blue flex items-center justify-center px-0">
