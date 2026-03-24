@@ -112,6 +112,7 @@ export default function App() {
                 href="#projects"
                 className="inline-block px-5 py-3 text-center bg-orange-900 text-white border border-gray-700 rounded-lg shadow">
                 View projectss
+                
               </a>
               <a
                 href="#contact"
