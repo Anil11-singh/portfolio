@@ -50,10 +50,10 @@ export default function App() {
     "I am a passionate Java Developer specializing in building efficient, scalable, and reliable applications. Skilled in Java, Spring Boot, Hibernate, and REST APIs, I enjoy solving complex problems and delivering clean, maintainable code. I aim to create impactful software solutions that enhance performance and user experience.";
 
   return (
-    <div className="min-h-screen background text-white antialiased">
+    <div className="min-h-screen bg-slate-950 text-white antialiased">
       {/* Header */}
       <header
-        className="bg-orange"
+        className="bg-slate-900"
         style={{ boxShadow: "0 1px #3c3f41fb" }}
       >
         <div className="max-w-6xl mx-auto px-6 py-5 flex items-center justify-between">
@@ -125,7 +125,7 @@ export default function App() {
 
               <a
                 href="#contact"
-                className="inline-block px-5 py-3 bg-blue-900 text-white border border-gray-700 rounded-lg shadow"
+                className="inline-block px-5 py-3 bg-slate-900 text-white border border-gray-700 rounded-lg shadow"
               >
                 Get in touch
               </a>
@@ -138,10 +138,10 @@ export default function App() {
             </div>
           </div>
 
-          <div className="bg-blue rounded-2xl border p-9">
+          <div className="bg-slate-900 rounded-2xl border p-9">
             <img src={logo} alt="Anil Kumar Mahato" />
 
-            <div className="bg-blue shadow-md rounded-2xl p-4 hover:shadow-xl transition mt-2">
+            <div className="bg-slate-900 shadow-md rounded-2xl p-4 hover:shadow-xl transition mt-2">
               <h3 className="font-semibold">Quick bio</h3>
 
               <p className="text-sm text-gray-300 mt-1 text-left">
@@ -169,7 +169,7 @@ export default function App() {
         <section id="skills" className="mt-14 text-left">
           <h4 className="text-2xl font-semibold">Skills</h4>
 
-          <div className="bg-blue text-white-100 border rounded-2xl p-6 hover:shadow-xl transition mt-5">
+          <div className="bg-slate-900 text-white-100 border rounded-2xl p-6 hover:shadow-xl transition mt-5">
             <div className="flex flex-wrap gap-3">
               {skills.map((s) => (
                 <span
@@ -196,7 +196,7 @@ export default function App() {
               <a
                 key={p.id}
                 href={p.link}
-                className="block bg-blue rounded-2xl border overflow-hidden hover:shadow-lg transition"
+                className="block bg-slate-900 rounded-2xl border overflow-hidden hover:shadow-lg transition"
               >
                 <div className="w-full h-80 bg-gray-100 overflow-hidden">
                   <img
@@ -227,7 +227,7 @@ export default function App() {
 
           <div className="grid gap-10 mt-6">
             {/* Experience Card 1 */}
-            <div className="bg-blue border rounded-2xl p-6 hover:shadow-xl transition text-left">
+            <div className="bg-slate-900 border rounded-2xl p-6 hover:shadow-xl transition text-left">
               <h6 className="text-xl font-semibold text-white">
                 🔵 System and Network Engineer · Big Solutions Pvt Ltd (Mypay)
               </h6>
@@ -258,7 +258,7 @@ export default function App() {
             </div>
 
             {/* Experience Card 2 */}
-            <div className="bg-blue border rounded-2xl p-6 hover:shadow-xl transition text-left">
+            <div className="bg-slate-900 border rounded-2xl p-6 hover:shadow-xl transition text-left">
               <h3 className="text-xl font-semibold text-white">
                 🔵 Java Developer · ADDC Infotech
               </h3>
