@@ -154,7 +154,7 @@ export default function App() {
         {/* About */}   
       <section id="about" className="mt-12 text-left">
   <h3 className="text-2xl font-semibold">About</h3>
-  <div> className="bg-red text-gray-300 border rounded-2xl p-5 hover:shadow-x1 transition mt-5 text-left">
+  <div> className="bg-red text-gray-300 border rounded-2xl p-5 hover:shadow-x1 transition mt-5 text-left"
                                       
       <p>
           {about}
@@ -423,5 +423,5 @@ export default function App() {
       </footer>  */}
       </main>
     </div>
-  );
+  ;
 }
