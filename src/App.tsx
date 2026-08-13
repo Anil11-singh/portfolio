@@ -91,7 +91,7 @@ export default function App() {
             </nav>
 
             <a
-              href="/resume.pdf"
+              href="/Anil_CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-green-200 text-blue-600 px-4 py-2 rounded-lg text-sm shadow hover:bg-gray-100 transition"
