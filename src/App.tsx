@@ -141,7 +141,7 @@ export default function App() {
             <img
                    src={logo}
                alt="Anil Kumar Mahato"
-                 className="w-200 h-85 object-cover rounded-2xl mx-auto"
+                 className="w-500 h-85 object-cover rounded-2xl mx-auto"
             />
 
             <div className="bg-slate-900 shadow-md rounded-2xl p-4 hover:shadow-xl transition mt-2">
