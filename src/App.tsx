@@ -141,10 +141,10 @@ export default function App() {
             <img
                    src={logo}
                alt="Anil Kumar Mahato"
-                 className="w-100 h-85 object-cover rounded-2xl mx-auto"
+                 className="w-200 h-85 object-cover rounded-2xl mx-auto"
             />
 
-            <div className="bg-slate-800 shadow-md rounded-2xl p-4 hover:shadow-xl transition mt-2">
+            <div className="bg-slate-900 shadow-md rounded-2xl p-4 hover:shadow-xl transition mt-2">
               <h3 className="font-semibold">Quick bio</h3>
 
               <p className="text-sm text-gray-300 mt-1 text-left">
