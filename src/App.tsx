@@ -118,8 +118,7 @@ export default function App() {
             <div className="mt-6 flex gap-3">
               <a
                 href="#projects"
-                className="inline-block px-5 py-3 text-center bg-orange-900 text-white border border-gray-700 rounded-lg shadow"
-              >
+                className="inline-block px-5 py-3 text-center bg-orange-900 text-white border border-gray-700 rounded-lg shadow">
                 View Projects
               </a>
 
@@ -145,7 +144,7 @@ export default function App() {
                  className="w-100 h-85 object-cover rounded-2xl mx-auto"
             />
 
-            <div className="bg-slate-900 shadow-md rounded-2xl p-4 hover:shadow-xl transition mt-2">
+            <div className="bg-slate-800 shadow-md rounded-2xl p-4 hover:shadow-xl transition mt-2">
               <h3 className="font-semibold">Quick bio</h3>
 
               <p className="text-sm text-gray-300 mt-1 text-left">
