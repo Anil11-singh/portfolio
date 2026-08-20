@@ -302,7 +302,7 @@ export default function App() {
               </div>
 
               {/* Main Grid */}
-              <div className="grid grid-cols-1 mb-20 md:grid-cols-3 gap-6">
+              <div className="grid grid-cols-1 mb-15 md:grid-cols-3 gap-6">
                 {/* Contact Form */}
                 <div className="md:col-span-2 rounded-2xl border border-white/70 bg-gradient-to-br from-slate-900 to-slate-950 p-6 shadow-xl">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
