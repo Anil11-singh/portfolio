@@ -91,7 +91,7 @@ export default function App() {
             </nav>
 
             <a
-              href="/Anil__CV.pdf"
+              href="/Anil__CV.pdf"   
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-green-200 text-blue-600 px-4 py-2 rounded-lg text-sm shadow hover:bg-gray-100 transition"
@@ -141,7 +141,7 @@ export default function App() {
             <img
                    src={logo}
                alt="Anil Kumar Mahato"
-                 className="w-500 h-85 object-cover rounded-2xl mx-auto"
+                 className="w-200 h-85 object-cover rounded-2xl mx-auto"
             />
 
             <div className="bg-slate-900 shadow-md rounded-2xl p-4 hover:shadow-xl transition mt-2">
