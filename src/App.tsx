@@ -141,7 +141,7 @@ export default function App() {
             <img
                    src={logo}
                alt="Anil Kumar Mahato"
-                 className="w-500 h-85 object-cover rounded-2xl mx-auto"
+                 className="w-500 h-90 object-cover rounded-2xl mx-auto"
             />
 
             <div className="bg-slate-900 shadow-md rounded-2xl p-4 hover:shadow-xl transition mt-2">
@@ -289,7 +289,7 @@ export default function App() {
 
         {/* Contact */}
         <section id="contact" className="mt-4">
-          <div className="min-h-screen bg-gradient-to-br from-slate-900 to-blue flex items-center justify-center px-0">
+        <div className="flex items-center justify-center px-0">
             <div className="w-full">
               {/* Header */}
               <div className="mb-6">
@@ -302,9 +302,9 @@ export default function App() {
               </div>
 
               {/* Main Grid */}
-              <div className="grid grid-cols-1 mb-28 md:grid-cols-3 gap-6">
+              <div className="grid grid-cols-1 mb-20 md:grid-cols-3 gap-6">
                 {/* Contact Form */}
-                <div className="md:col-span-2 rounded-2xl border border-white/10 bg-gradient-to-br from-slate-900 to-slate-950 p-6 shadow-xl">
+                <div className="md:col-span-2 rounded-2xl border border-white/70 bg-gradient-to-br from-slate-900 to-slate-950 p-6 shadow-xl">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                     <div>
                       <label className="text-slate-300 text-sm">
@@ -345,7 +345,7 @@ export default function App() {
                 </div>
 
                 {/* Reach Me Card */}
-                <div className="rounded-2xl border border-white/10 bg-gradient-to-b from-slate-900 to-slate-950 p-8 shadow-xl">
+                <div className="rounded-2xl border border-white/70 bg-gradient-to-b from-slate-900 to-slate-950 p-8 shadow-xl">
                   <h2 className="text-xl font-semibold text-white mb-4">
                     Reach me
                   </h2>
@@ -398,8 +398,9 @@ export default function App() {
           </div>
         </section>
 
-        <footer className="mt-0 text-center text-gray-400 text-sm">
-          © {new Date().getFullYear()} Anil Kumar Mahato. All rights reserved.
+        <footer className="mt-0 text-center text-gray-400 text-sm underline">
+          {/* {new Date().getFullYear()} */}
+             Thanks for visiting my portfolio.
         </footer>
       </main>
     </div>
